@@ -2767,7 +2767,7 @@
                       </div>
                       <select> </select>
                       <div class="controls">
-                        <button id="play" type="submit">Play</button>
+                        <!-- <button id="play" type="submit">Play</button> -->
                       </div>
                     <div read-block-container class="question assessment-cover-page">
                         <span class="grey" style="font-size:14px;">Assessment <b style="color:#FF5900;">1 of
@@ -2803,7 +2803,12 @@
                                     </span>
 
 
-                                    <div class="question" id="question_item1">
+                                    <div class="question" read-block-container id="question_item1">
+                        <button play type="button" class="btn1">Play</button>
+                        <button pause type="button" class="btn1 btn-warning mt-5 me-3">Pause</button>
+                        <button resume type="button" class="btn1 btn-info mt-5 me-3">Resume</button>
+                        <button cancelVoice type="button" class="btn btn-danger mt-5 me-3">Cancel</button>
+
                                         <div class="lilheader">
                                             <span style="font-size:14px;">Assessment <b style="color:#FF5900;">1 of
                                                     10</b></span>
@@ -2812,9 +2817,9 @@
                                                 Question <b style="color:#346995;">1 of 7</b>
                                             </span>
                                         </div>
-                                        <h2>Over the last 2 weeks, how often have you been bothered by the following
+                                        <h2 read-block >Over the last 2 weeks, how often have you been bothered by the following
                                             problems?</h2>
-                                        <p>Feeling nervous, anxious, or on edge.</p>
+                                        <p read-block>Feeling nervous, anxious, or on edge.</p>
                                         <span data-validation="item1">
                                             <span data-case="required"><br>Please enter a valid value.</span>
                                         </span>
@@ -2824,7 +2829,7 @@
                                                     value="3" wtx-context="AF24649C-8FCD-45E3-89FE-0949463112CE">
                                                 <button type="button" class="answersbutton">
                                                     <img src="./gad7_files/verysad.svg">
-                                                    <span>Nearly Every Day</span>
+                                                    <span read-block>Nearly Every Day</span>
                                                 </button>
                                             </div>
                                             <div>
@@ -2833,7 +2838,7 @@
                                                     wtx-context="67D49F1B-FC42-484F-BED1-BB9A1FDA8BD7">
                                                 <button type="button" class="answersbutton">
                                                     <img src="./gad7_files/sad.svg">
-                                                    <span>Over Half the Days</span>
+                                                    <span read-block>Over Half the Days</span>
                                                 </button>
                                             </div>
                                             <div>
@@ -2842,7 +2847,7 @@
                                                     wtx-context="C6A12694-A96B-4AE5-8FF9-9E661902891A">
                                                 <button type="button" class="answersbutton">
                                                     <img src="./gad7_files/nosmile.svg">
-                                                    <span>Several Days</span>
+                                                    <span read-block>Several Days</span>
                                                 </button>
                                             </div>
                                             <div>
@@ -2851,7 +2856,7 @@
                                                     wtx-context="0551E764-DB4D-45A9-8074-42DB1467B9FC">
                                                 <button type="button" class="answersbutton">
                                                     <img src="./gad7_files/veryhappy.svg">
-                                                    <span>Not At All</span>
+                                                    <span read-block>Not At All</span>
                                                 </button>
                                             </div>
                                         </div>
